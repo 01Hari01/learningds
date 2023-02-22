@@ -9,7 +9,19 @@ numbers.extend((24,43,232))
 numbers.insert(4,54)
 print(numbers,total,sizze)
 
-#Learning point 1: Most important functions on lists are append, extend, insert, pop, remove, reverse, sort
+#Learning point 1: Most important functions on lists(specifically numbers) are append, extend, insert, pop, remove, reverse, sort
+
+sentence=input("Enter a sentence: ")
+words=sentence.split()
+characters=list(words)
+print(sentence,words,characters)
+from collections import *
+stringArr="The white chocolate bar is the best in the world"
+words_list=stringArr.split()
+word_count=Counter(words_list)
+print(word_count)
+
+
 
 
 
